@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+}
+.page {
+  height: 100vh;
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.svg1 {
+  position: absolute;
+  top: -100%;
+  left: -20%;
+}
+.svg2 {
+  position: absolute;
+  bottom: -110%;
+  right: -20%;
+}
+.card {
+  height: 400px;
+  width: 400px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999999999999999;
+}
+.image {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./images/bg-pattern-card.svg);
+  border-radius: 20px 20px 0px 0px;
+}
+.image img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 200px 210px 200px 210px;
+  margin-top: 140px;
+}
+.text {
+  margin-top: 50px;
+}
+.head {
+  text-align: center;
+  height: 150px;
+  width: 100%;
+}
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box1 {
+  text-align: center;
+  margin: 0px 50px 70px 50px;
+}
+.box2 {
+  text-align: center;
+  margin: 0px 50px 70px 0px;
+}
+.box3 {
+  text-align: center;
+  margin: 0px 50px 70px 0px;
+}
